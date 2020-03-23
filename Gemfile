@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
 ruby '2.1.2'
-gem 'rails', '4.1.1'
+gem 'rails', '5.2.4.2'
 
-gem 'devise'
+gem 'devise', '>= 4.4.2'
 gem 'rails_12factor', group: :production
 gem 'sqlite3'
 #gem 'pg'
-gem 'figaro'
-gem 'jquery-rails'
+gem 'figaro', '>= 1.0.0'
+gem 'jquery-rails', '>= 4.0.1'
 gem 'rubyzip', require: 'zip'
 gem 'thin'
 gem 'faker'
@@ -19,14 +19,14 @@ gem 'pdf-forms'
 gem 'dotenv-rails', groups: [:development, :test]
 gem "therubyracer"
 gem 'sass-rails', github: 'rails/sass-rails'
-gem "coffee-rails"
+gem "coffee-rails", ">= 4.2.2"
 gem 'bootstrap-sass'
-gem 'minitest-rails'
+gem 'minitest-rails', '>= 3.0.0'
 gem 'bootstrap_form'
-gem 'markdown-rails'
-gem 'databasedotcom'
-gem 'databasedotcom-rails'
-gem 'quiet_assets', group: :development
+gem 'markdown-rails', '>= 0.2.1'
+gem 'databasedotcom', '>= 1.3.2'
+gem 'databasedotcom-rails', '>= 1.1.0'
+gem 'quiet_assets', '>= 1.0.3', group: :development
 gem 'rake', group: :test
 gem 'mocha', group: :test
 gem 'pry', groups: [:development, :test]
