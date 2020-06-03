@@ -34,5 +34,5 @@ gem 'pry-nav', groups: [:development, :test]
 gem 'jquery-datatables-rails', '~> 3.1.1'
 gem 'capybara', group: :test
 gem 'launchy', group: :test
-gem 'poltergeist', group: :test
+gem 'poltergeist', '>= 1.5.1', group: :test
 gem 'colorize'
