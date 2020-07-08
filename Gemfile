@@ -8,7 +8,7 @@ gem 'rails_12factor', group: :production
 gem 'sqlite3'
 #gem 'pg'
 gem 'figaro'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 gem 'rubyzip', require: 'zip'
 gem 'thin'
 gem 'faker'
