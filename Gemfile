@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 ruby '2.1.2'
-gem 'rails', '4.1.1'
+gem 'rails', '5.2.8.1'
 
 gem 'devise'
 gem 'rails_12factor', group: :production
 gem 'sqlite3'
 #gem 'pg'
-gem 'figaro'
+gem 'figaro', '>= 1.0.0'
 gem 'jquery-rails'
 gem 'rubyzip', require: 'zip'
 gem 'thin'
