@@ -21,7 +21,7 @@ gem "therubyracer"
 gem 'sass-rails', github: 'rails/sass-rails'
 gem "coffee-rails"
 gem 'bootstrap-sass'
-gem 'minitest-rails'
+gem 'minitest-rails', '>= 7.1.0'
 gem 'bootstrap_form'
 gem 'markdown-rails'
 gem 'databasedotcom'
