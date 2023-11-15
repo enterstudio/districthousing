@@ -32,7 +32,7 @@ gem 'mocha', group: :test
 gem 'pry', groups: [:development, :test]
 gem 'pry-nav', groups: [:development, :test]
 gem 'jquery-datatables-rails', '~> 3.1.1'
-gem 'capybara', group: :test
+gem 'capybara', '>= 2.5.0', group: :test
 gem 'launchy', group: :test
-gem 'poltergeist', group: :test
+gem 'poltergeist', '>= 1.6.0', group: :test
 gem 'colorize'
