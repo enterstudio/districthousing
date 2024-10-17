@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 ruby '2.1.2'
-gem 'rails', '4.1.1'
+gem 'rails', '7.0.0'
 
 gem 'devise'
 gem 'rails_12factor', group: :production
 gem 'sqlite3'
 #gem 'pg'
-gem 'figaro'
+gem 'figaro', '>= 1.0.0'
 gem 'jquery-rails'
 gem 'rubyzip', require: 'zip'
 gem 'thin'
@@ -23,7 +23,7 @@ gem "coffee-rails"
 gem 'bootstrap-sass'
 gem 'minitest-rails'
 gem 'bootstrap_form'
-gem 'markdown-rails'
+gem 'markdown-rails', '>= 2.0.2'
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
 gem 'quiet_assets', group: :development
